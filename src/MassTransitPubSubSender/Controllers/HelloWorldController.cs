@@ -30,7 +30,7 @@ namespace MassTransitWebAppPubSub.Controllers
             }
             catch (Exception ex)
             {
-
+                return StatusCode(500);
             }
 
             return Ok();
